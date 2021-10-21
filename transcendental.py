@@ -8,11 +8,11 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/fatorial')
-def soma():
+def fatorial():
     int_input = request.args.get('int_input', type=int)
     int_output = {'fatorial': (math.factorial(int_input))}
     return jsonify(int_output)
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5001)
+    app.run(host='0.0.0.0', port=5002)
