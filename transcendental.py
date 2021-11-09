@@ -9,8 +9,8 @@ CORS(app)
 
 @app.route('/fatorial')
 def fatorial():
-    int_input = request.args.get('int_input', type=int)
-    int_output = {'fatorial': (math.factorial(int_input))}
+    arg1 = request.args.get('arg1', type=int)
+    int_output = {'result': (math.factorial(arg1))}
     return jsonify(int_output)
 
 
