@@ -29,5 +29,4 @@ jobs:
       run: |
         python transcendental.py &
         sleep 10 &&
-        curl http://localhost:5002 &&
         pytest
