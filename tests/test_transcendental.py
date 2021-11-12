@@ -7,5 +7,5 @@ def getFatorial_calc(n1):
 
     return data["result"]
 
-def test_function_soma():
-    assert getFatorial_calc(5) == 120
+def test_function_fatorial():
+    assert getFatorial_calc(5) == 100
