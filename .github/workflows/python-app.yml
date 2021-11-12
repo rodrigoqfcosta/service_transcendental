@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run project
       run: |
-        python -f transcendental.py
+        python transcendental.py
     - name: Test with pytest
       run: |
         pytest
