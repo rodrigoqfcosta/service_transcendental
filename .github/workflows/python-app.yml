@@ -26,6 +26,9 @@ jobs:
         pip install pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         python transcendental.py        
-    - name: Test with pytest
+    - name: Start Application on background and run tests
       run: |
+        python transcendental.py &
+        sleep 10 &&
+        curl http://localhost:5002 &&
         pytest
