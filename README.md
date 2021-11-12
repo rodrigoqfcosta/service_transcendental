@@ -4,7 +4,7 @@
 O microsserviço transcendental possui a função de calculos fatorial, 
 recebendo apenas um parâmetro retornando Json com o resultado.
 
-### INICIALIZANDO MICRO-SERVIÇO:
+### INICIALIZANDO MICROSSERVIÇO:
 
 Antes de iniciar o microsserviço, certifique-se de habilitar o seu ambiente virtual (VENV):
 ###### MacOS/Linux:
