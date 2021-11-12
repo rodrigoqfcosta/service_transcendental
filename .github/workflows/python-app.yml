@@ -24,8 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        python transcendental.py        
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi       
     - name: Start Application on background and run tests
       run: |
         python transcendental.py &
