@@ -23,5 +23,5 @@ $ source venv/bin/activate
 
 Agora estamos prontos para executar o micro-serviço:
 ```
-> python transcedental.py
+> python transcendental.py
 ```
