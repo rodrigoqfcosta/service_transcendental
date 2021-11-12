@@ -1,12 +1,12 @@
-# Micro-Serviço Transcendental
+# Microsserviço Transcendental
 ### Repositório exclusivo para micro-serviço de calculo transcendental
 
-O micro-serviço transcendental possui a função de calculos fatorial, 
+O microsserviço transcendental possui a função de calculos fatorial, 
 recebendo apenas um parâmetro retornando Json com o resultado.
 
 ### INICIALIZANDO MICRO-SERVIÇO:
 
-Antes de iniciar o micro-serviço, certifique-se de habilitar o seu ambiente virtual (VENV):
+Antes de iniciar o microsserviço, certifique-se de habilitar o seu ambiente virtual (VENV):
 ###### MacOS/Linux:
 ```
 $ source venv/bin/activate
@@ -21,7 +21,7 @@ $ source venv/bin/activate
 > pip install -r requirements.txt
 ```
 
-Agora estamos prontos para executar o micro-serviço:
+Agora estamos prontos para executar o microsserviço:
 ```
 > python transcendental.py
 ```
