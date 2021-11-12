@@ -8,4 +8,4 @@ def getFatorial_calc(n1):
     return data["result"]
 
 def test_function_fatorial():
-    assert getFatorial_calc(5) == 120
+    assert getFatorial_calc(5) == 11
